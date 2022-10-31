@@ -13,4 +13,9 @@ func main() {
 		}
 		x--
 	}
+	names := [4]string{"Lewis", "George", "Max", "Checko"}
+
+	for i, value := range names {
+		fmt.Println(i, value)
+	}
 }
